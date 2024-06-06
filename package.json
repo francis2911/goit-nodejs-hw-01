@@ -1,0 +1,33 @@
+{
+  "name": "goit-node-hw-01",
+  "version": "1.0.0",
+  "description": "Primer tarea modulo nodejs de goit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edopore/goit-nodejs-hw-01.git"
+  },
+  "keywords": [
+    "nodejs",
+    "commander"
+  ],
+  "author": "Eduardo Maya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edopore/goit-nodejs-hw-01/issues"
+  },
+  "homepage": "https://github.com/edopore/goit-nodejs-hw-01#readme",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "nanoid": "^5.0.7",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
